@@ -82,5 +82,5 @@ gulp.task("tdd", function() {
 
 // FINAL =======================================================================
 
-gp.task("build", ["ts:watch", "css:watch", "assets:copy"]);
+gulp.task("build", ["ts:watch", "css:watch", "assets:copy"]);
 gulp.task("watch", ["ts:watch", "css:watch", "assets:watch"]);
