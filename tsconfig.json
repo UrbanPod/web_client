@@ -1,9 +1,10 @@
 {
+  "experimentalDecorators": true,
   "compileOnSave": false,
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
-    "declaration": false,
+    "declaration": true,
     "noImplicitAny": true,
     "removeComments": true,
     "noLib": false
@@ -16,6 +17,8 @@
     "rewriteTsconfig": true
   },
   "files": [
+    "src/ts/components/pod_card/pod_card.ts",
+    "src/ts/imports.ts",
     "src/ts/index.ts"
   ]
 }

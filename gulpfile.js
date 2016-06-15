@@ -27,7 +27,7 @@ var b = browserify({
   packageCache: {},
   debug: true
 }).add("index.ts")
-  .plugin(tsify);
+  .plugin(tsify, tsconfig);
 b = watchify(b);
 
 gulp.task('ts:watch', bundle); // So you can run `gulp ts` to build the file.
