@@ -1,6 +1,6 @@
 import { VueApi, VueComponent, data } from '../../imports';
 
-@VueComponent("pod-card", "<div>Hello, I am a pod card! {{ testData }}</div>")
+@VueComponent('pod-card', require('./pod_card.html'))
 export class PodCard extends VueApi {
 
   @data public testData : number;

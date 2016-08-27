@@ -11,17 +11,10 @@
   },
   "homepage": "https://github.com/UrbanPod/web_client#readme",
   "devDependencies": {
-    "browserify": "^13.0.0",
-    "gulp": "^3.9.0",
-    "gulp-sass": "^2.2.0",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-util": "^3.0.7",
-    "karma": "^0.13.19",
-    "lodash": "^4.5.1",
-    "tsify": "^0.13.2",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0",
-    "watchify": "^3.7.0"
+    "html-loader": "^0.4.3",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.1"
   },
   "dependencies": {
     "cerialize": "^0.1.3",
